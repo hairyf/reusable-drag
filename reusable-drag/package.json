@@ -1,0 +1,11 @@
+{
+  "name": "reusable-drag",
+  "version": "1.2.5",
+  "description": "javascript reusable drag",
+  "main": "resusable-drag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
