@@ -5,6 +5,10 @@
 ~~~js
 import reusableDrag from 'resusable-drag'
 ~~~
+~~~html
+<!-- 又或者script中引入 -->
+<script src="./js/resusable-drag.js"></script>
+~~~
 ### 定义一个滑动/拖拽封装
 ~~~js
 const touch_sliding_screen = new reusableDrag({
