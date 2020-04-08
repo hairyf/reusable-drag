@@ -1,9 +1,12 @@
 # ReusableDrag
 ## 滑屏 / 拖拽构建工具库
 [![NPM version](https://img.shields.io/npm/v/reusable-drag.svg)](https://www.npmjs.com/package/reusable-drag)
-
+### 引入库
 ~~~js
 import reusableDrag from 'resusable-drag'
+~~~
+### 定义一个滑动/拖拽封装
+~~~js
 const touch_sliding_screen = new reusableDrag({
     data() {
         return {
@@ -42,8 +45,9 @@ const touch_sliding_screen = new reusableDrag({
         down (ev) {},move (ev) {},up (ev) {}
     }, */
 })
-
-// 创建一个拖拽
+~~~
+### 创建一个拖拽/滑动
+~~~js
 touch_sliding_screen.create({
     el:document.querySelector('.mi-carousel'),
     slidingDistance: 300,
@@ -52,4 +56,3 @@ touch_sliding_screen.create({
     // touchclasp:{start(r){},move(r){},end(r){}}  // touchclasp
 })
 ~~~
-
